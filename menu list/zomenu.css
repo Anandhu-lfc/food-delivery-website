@@ -1,0 +1,756 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+.cart{
+    background:red;
+    color: white;
+    border: none;
+  border-radius: 30px;
+  outline: none;
+  }
+
+  .brand1, .brand2, .brand3, .brand4{
+    box-shadow: 0 20px 20px rgba(0, 0,0,0.2), 0px 0px 50px rgba(0, 0,0,0.2);
+}
+.brandhead{
+    text-align: center;
+}
+.brands{
+    height: 50vh;
+    width: 100%;
+    justify-content:space-around;
+    align-items: center;
+    display: flex;
+}
+.spa{
+    background:red;
+    color: white;
+    border: none;
+  border-radius: 30px;
+  outline: none;
+}
+.addmode{
+    background:red;
+    color: white;
+    border: none;
+  border-radius: 30px;
+  outline: none;
+}
+.addmode1{
+    background:red;
+    color: white;
+    border: none;
+  border-radius: 30px;
+  outline: none;
+}
+
+.search-box{
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    background:white;
+    width:220px;
+    float:right;
+    margin-right: 30px;
+    }
+
+
+.search{
+    float: right;
+    background: none;
+    border: none;
+    color:black;
+    outline: none;
+    position: relative;
+    }
+   .search-btn img{
+       width: 30px;
+       height: 30px;
+       border-radius: 50%;
+       top: 80px;
+       right: 200px;
+   position:absolute;
+   }
+.rem{
+    color: red;
+    font-size: 35px;
+    border: none;
+    transition:all 0.5s ease-in-out;
+    
+}
+.rem:hover{
+    transform: rotate(90deg);
+}
+.rem1{
+    color: red;
+    font-size: 35px;
+    border: none;
+    transition:all 0.5s ease-in-out;
+    
+}
+.rem1:hover{
+    transform: rotate(90deg);
+}
+.re{
+    color: red;
+    font-size: 35px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+.re:hover{
+    transform: rotate(90deg);
+}
+.re1{
+    color: red;
+    font-size: 35px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+.re1:hover{
+    transform: rotate(90deg);
+}
+
+.closemod{
+    color: red;
+    font-size:35px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    outline: none;
+}
+.closemod:hover{
+    transform: rotate(90deg);
+}
+.closemode1{
+    color: red;
+    font-size: 35px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    outline: none;
+}
+.closemode1:hover{
+    transform: rotate(90deg);
+}
+.closemode2{
+    color: red;
+    font-size: 35px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    outline: none;
+}
+.closemode2:hover{
+    transform:rotate(90deg);
+}
+.closemode3{
+    color: red;
+    font-size: 35px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    outline: none;
+}
+.closemode3:hover{
+    transform: rotate(90deg);
+}
+
+
+.navbar{
+    
+    background:rgba(243, 4, 4, 0.75);
+    padding-bottom: 25px;
+    
+    }
+
+.zomti{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.sidee{
+    height: 100%;
+    width: 0;
+    background-color:rgba(243, 4, 4, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+    z-index: 1;
+    transition: 0.5s;
+    overflow-x: hidden;
+    
+}
+.sidee a{
+    text-decoration: none;
+    padding: 8px 8px 8px 32px;
+    display: block;
+    transition: 0.3s;
+    color: white;
+    font-size: 25px;
+}
+.sidee .sidclbtn{
+    position: absolute;
+    right:25px;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+    font-size: 35px;
+}
+span{
+    font-size: 35px;
+    cursor: pointer;
+}
+.dely{
+    width: 50px;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+.dely:hover{
+    transform: rotate(45deg);
+}
+.preloader{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    background:yellow;
+    display: grid;
+    visibility: visible;
+    z-index: 999;
+    transition: all 1s ease-in-out;
+}
+.hide{
+    z-index: -999;
+    visibility: hidden;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+
+    
+}
+footer p{
+    color: white;
+    text-align: center;
+ 
+}
+.follow{
+    float:left;
+}
+span{
+    opacity: 0;
+    transition: all 1s ease-in;
+    display: inline-block;
+    transform: translatey(50px);
+}
+span.fade{
+    opacity: 1;
+    transform: translatey(0px);
+    
+}
+.services{
+    color:black;
+    text-align: center;
+    
+    
+}
+
+.servi{
+   display: grid;
+   grid-template-columns:1fr 1fr;
+grid-template-rows:1fr 1fr;
+height: 300px;
+justify-content: center;
+
+
+
+
+}
+.ser{
+    background-color:blue;
+    text-align:center;
+    grid-row: 1/3;
+    background: url("food.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.ser1{
+    background-color: blueviolet;
+   background: url('fooddis.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+
+    
+
+    
+    
+}
+
+
+.ser2{
+    background-color: chartreuse;
+    background: url('free.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.map{
+    text-align: center;
+    color:black;
+    
+}
+.sear{
+    text-align: center;
+    
+    
+    }
+.sw{
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    background:rgb(0, 0, 0);
+    width:200px;
+    float:center;
+    margin-right: 30px;
+    border: none;
+    color: white;
+    outline: none;
+    
+}
+.sz{
+    height: 40px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 40px;
+    background:black;
+    width:200px;
+    float:center;
+    margin-right: 30px;
+    border: none;
+    color: white;
+    outline: none;
+    
+}
+.scrollbtn{
+    position: fixed;
+    border-radius: 50%;
+    right: 50px;
+    bottom: 10px;
+     width: 60px;
+    height: 50px;
+    background:rgba(243, 4, 4, 0.75);;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color:white;
+    font-size:30px;
+}
+.scrollbtn:active{
+    background:red;
+}
+.sign
+{
+float: right;
+border:1px solid white;
+background:yellow;
+font-size: medium;
+border-radius: 30px;
+animation: 2s ease 0s infinite normal none running bounce;
+padding: 10px;
+
+}
+
+
+.sign:hover{
+    background:goldenrod;
+}
+@keyframes bounce{
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    
+    100% {
+        transform: scale(1);
+    }
+    }
+.signinn{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility:hidden;
+    transition: visibility 0s, opacity 0.5s;
+}
+.signinmon{
+    position: relative;
+    background: white;
+    width: 30%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+}
+.addsign{
+    opacity: 1;
+    visibility: visible;
+}
+.closesignin{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+    background: none;
+    border: none;
+    font-size: 35px;
+    transition: all 0.5s ease-in-out;
+}
+.closesignin:hover{
+    transform: rotate(90deg);
+
+}
+.form{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.sig{
+    margin-top: 10px;
+    background:rgba(243, 4, 4, 0.75);
+    border: none;
+    width: 80%;
+    padding: 10px;
+    border-radius: 30px;
+    color:white;
+}
+.prin, .pridec{
+    margin-top: 10px;
+    background:rgba(243, 4, 4, 0.75);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    color:white;
+    outline: none;   
+}
+.souin, .soudec{
+    margin-top: 10px;
+    background:rgba(243, 4, 4, 0.75);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    color:white;  
+    outline: none; 
+}
+.spainc, .spadec{
+    margin-top: 10px;
+    background:rgba(243, 4, 4, 0.75);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    color:white;
+    outline: none;   
+}
+
+.burginc, .burgdec{
+    margin-top: 10px;
+    background:rgba(243, 4, 4, 0.75);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    color:white;
+    outline: none;
+}
+
+.clmode3{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition:visibility 0s, opacity 0.5s ;
+}
+.clactive3{
+    visibility: visible;
+    opacity: 1;
+}
+.modals3{
+    position: relative;
+    background: white;
+    width: 30%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    
+}
+
+.closemode3{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.clmode2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition:visibility 0s, opacity 0.5s ;
+}
+.clactive2{
+    opacity: 1;
+    visibility: visible;
+}
+.modals2{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+.closemode2{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.clmode1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s, opacity 0.5s;
+
+}
+.clactive1{
+    opacity: 1;
+    visibility: visible;
+}
+.modals1{
+    position:relative;
+    width: 30%;
+    height: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    
+}
+.closemode1{
+    position:absolute;
+    top:10px;
+    right: 10px;
+}
+
+.clmode{
+position: fixed;
+top:0;
+left: 0;
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0;
+visibility: hidden;
+transition: visibility 0s, opacity 0.5s;
+}
+.clactive{
+    opacity: 1;
+    visibility: visible;
+}
+.modals{
+    position: relative;
+    
+    width: 30%;
+    height: 100%;
+    background:white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    
+}
+.closemod{
+    top: 10px;
+        right: 10px;
+    position:absolute;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    cursor: pointer;
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+    text-align: center;
+    
+}
+.fa-twitter{
+    background: #55ACEE;
+  color: white;
+  
+}
+.fa-instagram{
+    background: #8f0316;
+    color: white;
+    
+}
+.prin{
+    width: 30px;
+}
+.pridec{
+    width: 30px;
+}
+.grih{
+    color:greenyellow;
+}
+
+.foot{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+}
+.foo{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.link{
+        
+       
+    display: flex;
+    justify-content: space-around;
+    
+}
+.item1 {
+    background: url('delhi.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    }
+    .item2 {
+        background: url('mumbai.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+        width: 30%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        }
+        .item3 {
+            background: url('bangalore.jpg');
+            background-repeat: no-repeat;
+            background-size:cover;
+            width: 30%;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
+            }
+.link1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+.item4 {
+    background: url('chennai.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    
+    
+}
+.item5 {
+    background: url('hyderabad.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    
+    
+}
+.item6 {
+    background: url('kochi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    
+    
+}
+
+.link a{
+color: white;
+font-size: 50px;
+text-decoration: none;
+}
+.link1 a{
+color: white;
+font-size: 50px;
+text-decoration: none;
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato menu</title>
+    <link rel="stylesheet"href="zomenu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+</head>
+<style>
+    *{
+        
+       box-sizing: border-box;  
+    
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Squada One', cursive;
+        
+
+        
+        
+        }
+    
+.a{
+    display:flex;
+    width:50%;
+    height: 250px;
+    justify-content: space-around;
+    margin-left: 300px;
+    border-radius: 30px;
+    box-shadow: 0 20px 20px rgba(0, 0,0,0.2), 0px 0px 50px rgba(0, 0,0,0.2);
+}
+
+.b{
+    
+    width: 100px;
+    margin: 10px;
+    line-height: 30px;
+    
+    
+}
+    
+    
+
+        
+        
+        
+        
+    
+    
+    
+         .b:hover{
+             transform: scale(1.2);
+             
+         }
+         
+         .men{
+             text-align: center;
+             color:black;
+             
+             
+         }
+
+         
+
+        
+    
+</style>
+<body>
+    <div class="preloader">
+        <img src="preloader.gif" class="pre"alt="prel">
+    </div>
+<nav class="navbar">
+        <div class="zomti">ZOMATO
+            <img src="del1.jpg" class="dely">
+
+    </div>
+
+    <button class="sign"> CLICK TO SIGNIN</button>
+ <div class="search-box" ><input type="text"placeholder="search here" class="search">
+<a href="#" class="search-btn"><img src="outline_search_black_24dp.png" alt=""></a></div>
+    
+    
+    
+
+
+    <div class="sidee" id="sideopen">
+        <a href="javascript:void(0)" id="myside" class="sidclbtn" onclick="closenav()">&times;</a>
+        <a href="#">home</a>
+        <a href="#">about us</a>
+        <a href="#">contact us</a>
+    </div>
+    <span onclick="opennav()">&#9776;</span>
+    
+</nav>
+
+<h1 class="men">OUR MENU</h1> 
+    
+    
+        <div class="a">
+        <div class="b"><img src="burger.png"width=100px height=100px/>BURGER<button class="cart" >ADD TO CART</button></div>
+        <div class="b"><img src="spagetti.png" height= 100px width=100px/>SPAGETTI<button class="spa">ADD TO CART</button></div>
+        <div class="b"><img src="pizza1.jpg" height=100px width=100px/>PIZZA<button class="addmode">ADD TO CART</button></div>
+        <div class="b"><img src="cocktail.jpg" height=100px width=100px/>COCKTAIL<button class="addmode1">ADD TO CART</button></div>
+
+    </div>
+<h1 class="brandhead">OUR TOP BRANDS</h1>
+    <div class="brands">
+    <div class="brand1"><img src="mc.png" height="200px" width="250px" alt=""></div>
+        <div class="brand2"><img src="burgking.jpg" height="200px"width="250px" alt=""></div>
+        <div class="brand3"><img src="star.png" height="200px" width="250px" alt=""></div>
+        <div class="brand4"><img src="domi.jpg" height="200px" width="250px" alt=""></div>
+    </div>
+        <div class="foot">
+    <h1 class="services">OUR SERVICES</h1>
+    <div class="servi">
+     <div class="ser"><h1 class="grih">Order Food Online</h1></div>
+        <div class="ser1"><h1 class="grih">Discounts and Offers</h1></div>
+        <div class="ser2"><h1 class="grih">free home delivery</h1></div>
+    </div>
+</div>
+<h1 style="text-align: center;">BEST PLACE TO DINE IN</h1>
+<div class="link">
+    <div class="item1"><a href="">DELHI</a></div>
+    <div class="item2"><a href="">MUMBAI</a></div>
+    <div class="item3"><a href="">BANGALORE</a></div>
+    
+    
+   
+ </div>
+ 
+ <div class="link1">
+     <div class="item4"><a href="">CHENNAI</a></div> 
+     <div class="item5"><a href="">HYDERABAD</a></div>
+     <div class="item6"><a href="">KOCHI</a></div>
+     
+     
+    
+  </div>
+
+
+<h1 class="map">Discover the best foods & drinks</h1>
+<div class="sear">
+<input class="sw" placeholder="places" type="text"><br>
+<input class="sz" placeholder="restaurant names" type="text">
+</div>
+<button class="scrollbtn">&#8593;</button>
+
+<div class="clmode">
+    <div class="modals">
+    <button class="closemod">&times;</button>
+    <button class="spainc">inc</button>
+    <button class="spadec">dec</button>
+    <h3>ITEM NO</h3>
+    <h3 class="xxx">0</h3>
+    <h3>PRICE</h3>
+    <h3 class="zzz">0</h3>
+</div>
+</div>
+<div class="clmode1">
+    <div class="modals1">
+    <button class="closemode1">&times;</button>
+    <button class="prin">inc</button>
+    <button class="pridec">dec</button>
+    <h3>ITEM NO</h3>
+    <h3 class="szx">0</h3>
+    <h3>PRICE</h3>
+    <h3 class="sxz">0</h3>
+</div>
+</div>
+<div class="clmode2">
+<div class="modals2">
+    <button class="closemode2">&times;</button>
+    <button class="burginc">inc</button>
+    <button class="burgdec">dec</button>
+    <h3>ITEM NO</h3>
+    <h3 class="burz">0</h3>
+    <h3>PRICE</h3>
+    <h3 class="burx">0</h3>
+</div>
+</div>
+
+<div class="clmode3">
+    <div class="modals3">
+        <button class="closemode3">&times;</button>
+        
+    <button class="souin">inc</button>
+    <button class="soudec">dec</button>
+    <h3>ITEM NO</h3>
+    <h3 class="souit">0</h3>
+    <h3>PRICE</h3>
+    <h3 class="soutot">0</h3>
+        </div>
+    </div>
+    
+    <div class="signinn">
+        
+        <div class="signinmon">
+        <button class="closesignin">&times;</button>
+        <form action="">
+
+<div class="form">
+        <label for="username">USERNAME</label>
+        <input type="text" name="username" required>
+        <label for="password">PASSWORD</label>
+        <input type="password" name="password" required>
+        <button  type="submit"class="sig">signin</button>
+    
+</div>
+</form>
+    </div>
+</div>
+
+
+    <footer>
+        <p>copyright&copy;zomato all rights reserved</p>
+        <p class="follow">follow us on</p>
+        <a class="fa fa-facebook"></a>
+        <a class="fa fa-twitter"></a>
+        <a class="fa fa-instagram"></a>
+        
+        
+
+    </footer>
+
+
+    <script src="menu.js"></script>
+</body>
+</html>
